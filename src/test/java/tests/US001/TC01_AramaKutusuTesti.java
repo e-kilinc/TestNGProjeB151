@@ -10,6 +10,8 @@ public class TC01_AramaKutusuTesti {
     public void test01() {
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
 
+        Driver.closeDriver();
+
 
     }
 }
